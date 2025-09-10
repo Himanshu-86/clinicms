@@ -93,7 +93,7 @@ It ensures **role-based access** with three different portals:
  4. **Apply migrations**
 
     
-   - python manage.py migrate
+     - python manage.py migrate
 
  6. **Create a superuser (Admin)**
     
@@ -112,16 +112,27 @@ It ensures **role-based access** with three different portals:
 ---
 ## Project Structure
 clinicms/
+
 │── manage.py
+
 │── requirements.txt
+
 │── README.md
+
 │── clinicms/         # Main project settings
+
 │── appointments/     # Appointment module
+
 │── patients/         # Patient management
+
 │── doctors/          # Doctor module
+
 │── prescriptions/    # Prescriptions
+
 │── billing/          # Billing & invoices
+
 │── templates/        # HTML templates
+
 │── static/           # CSS, JS, Images
 
 ---
