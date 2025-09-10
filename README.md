@@ -55,19 +55,23 @@ It ensures **role-based access** with three different portals:
 
 ##  Screenshots
   
-- **Login Page**  
+- **Login Page**
+- 
 ![Login Page]()  
 
-- **Admin Dashboard**  
+- **Admin Dashboard**
+- 
 ![Admin Dashboard]()  
 
 ---
 
-##  Installation
 
 ### Prerequisites
-- Python 3.8+  
-- pip package manager  
+
+- Python 3.8+
+- 
+- pip package manager
+- 
 - Virtual environment (recommended)  
 
 ### Steps
@@ -80,7 +84,9 @@ It ensures **role-based access** with three different portals:
 2. **Create and activate virtual environmentClone the repository**
    
 python -m venv venv
+
 source venv/bin/activate   # for Linux/Mac
+
 venv\Scripts\activate      # for Windows
 
 4. **Install dependencies**
@@ -88,12 +94,16 @@ venv\Scripts\activate      # for Windows
   pip install -r requirements.txt
 
  4. **Apply migrations**
+
+    
     python manage.py migrate
 
- 5. **Create a superuser (Admin)**
+ 6. **Create a superuser (Admin)**
+    
       python manage.py createsuperuser
     
-7. **Run the development server**
+8. **Run the development server**
+   
       python manage.py runserver
 
 
@@ -121,7 +131,10 @@ clinicms/
 ## **Future Scope**
 
 Integration with online payments
+
 SMS/Email notifications
+
 AI-based health analytics
+
 Cloud deployment
 
