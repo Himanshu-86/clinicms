@@ -56,24 +56,21 @@ It ensures **role-based access** with three different portals:
 ##  Screenshots
   
 - **Login Page**
-- 
+
 ![Login Page]()  
 
 - **Admin Dashboard**
-- 
-![Admin Dashboard]()  
 
----
+![Admin Dashboard]()  
 
 
 ### Prerequisites
 
 - Python 3.8+
-- 
 - pip package manager
-- 
 - Virtual environment (recommended)  
 
+---
 ### Steps
 
 1. **Clone the repository**
@@ -83,36 +80,36 @@ It ensures **role-based access** with three different portals:
 
 2. **Create and activate virtual environmentClone the repository**
    
-python -m venv venv
+    - python -m venv venv
 
-source venv/bin/activate   # for Linux/Mac
+    - source venv/bin/activate   # for Linux/Mac
 
-venv\Scripts\activate      # for Windows
+    - venv\Scripts\activate      # for Windows
 
 4. **Install dependencies**
 
-  pip install -r requirements.txt
+   - pip install -r requirements.txt
 
  4. **Apply migrations**
 
     
-    python manage.py migrate
+   - python manage.py migrate
 
  6. **Create a superuser (Admin)**
     
-      python manage.py createsuperuser
+    - python manage.py createsuperuser
     
 8. **Run the development server**
    
-      python manage.py runserver
+    -  python manage.py runserver
 
-
+---
 ##  Access Control
 - **Admin:** Full access to all modules (appointments, doctors, patients, billing, prescriptions, analytics).  
 - **Doctor:** Restricted access – can only manage appointments, view patient history, and add/edit prescriptions.  
 - **Patient:** Limited access – can only book appointments, view their own records, and check billing.  
 
-
+---
 ## Project Structure
 clinicms/
 │── manage.py
@@ -127,14 +124,14 @@ clinicms/
 │── templates/        # HTML templates
 │── static/           # CSS, JS, Images
 
-
+---
 ## **Future Scope**
 
-Integration with online payments
+- Integration with online payments
 
-SMS/Email notifications
+- SMS/Email notifications
 
-AI-based health analytics
+- AI-based health analytics
 
-Cloud deployment
+- Cloud deployment
 
