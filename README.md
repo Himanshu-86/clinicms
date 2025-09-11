@@ -76,19 +76,19 @@ It ensures **role-based access** with three different portals:
 1. **Clone the repository**
  
 2. **Create and activate virtual environmentClone the repository**
-3. 
-4. **Install dependencies**
+ 
+3. **Install dependencies**
 
  4. **Apply migrations**
 
     
      - python manage.py migrate
 
- 6. **Create a superuser (Admin)**
+ 5. **Create a superuser (Admin)**
     
     - python manage.py createsuperuser
     
-8. **Run the development server**
+6. **Run the development server**
    
     -  python manage.py runserver
 
