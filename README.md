@@ -74,21 +74,10 @@ It ensures **role-based access** with three different portals:
 ### Steps
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/clinicms.git
-   cd clinicms
-
+ 
 2. **Create and activate virtual environmentClone the repository**
-   
-    - python -m venv venv
-
-    - source venv/bin/activate   # for Linux/Mac
-
-    - venv\Scripts\activate      # for Windows
-
+3. 
 4. **Install dependencies**
-
-   - pip install -r requirements.txt
 
  4. **Apply migrations**
 
