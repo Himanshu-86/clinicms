@@ -75,7 +75,7 @@ It ensures **role-based access** with three different portals:
 
 1. **Clone the repository**
  
-2. **Create and activate virtual environmentClone the repository**
+2. **Create and activate virtual environment**
  
 3. **Install dependencies**
 
